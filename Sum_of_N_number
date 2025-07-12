@@ -1,0 +1,9 @@
+num = int(input("how many number? : "))
+sum = 0
+
+for i in range (num):
+    value = int(input("Enter a number: "))
+    sum += value
+    
+print("Sum is ",sum)
+
