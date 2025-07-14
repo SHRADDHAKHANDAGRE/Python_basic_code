@@ -1,0 +1,12 @@
+num1 = int(input("Enter a number :"))
+num2 = int(input("Enter a number :"))
+
+print("values before swaping :")
+print("a = ",num1,"and b = ",num2)
+
+temp = num1
+num1 = num2
+num2 = temp
+
+print("values after swaping :")
+print("a = ",num1,"and b = ",num2)
