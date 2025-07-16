@@ -1,0 +1,11 @@
+list = [10,20,30,40,50]
+
+print(list)
+
+count = 0
+for i in list:
+     count = count + 1
+    
+print("length of list is : ",count)
+
+print("length of list is : ",len(list))
