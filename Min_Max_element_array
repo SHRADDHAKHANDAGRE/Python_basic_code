@@ -1,0 +1,17 @@
+array = [1,2,3,4,5,20]
+
+max =array[0]
+min = array[0]
+
+for i in range (1,len(array)):
+    if max < array[i]:
+        max = array[i]
+        
+print("Maximum element of array is ",max)
+
+
+for i in range (1,len(array)):
+    if min > array[i]:
+        min = array[i]
+        
+print("Maximum element of array is ",min)
