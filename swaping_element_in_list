@@ -1,0 +1,40 @@
+1st approach
+
+list = [1, 2, 3, 3, 4, 43 , 54, 67 ]
+size = len(list)
+print("list before swaping :",list)
+temp = list[0]
+list[0] = list[size-1]
+list[size-1] = temp
+print("list after swaping :",list)
+
+
+2nd approach
+list[0], list[-1] = list[-1], list[0]
+print("list after swaping: ",list)
+
+
+3rd approach
+get=(list[-1],list[0])
+#get is use for tuple
+list[0], list[-1]=get
+print("list after swaping: ",list)
+
+
+4th approach
+start, *middle, end=list
+print(start)
+print(middle)
+print(end)
+
+list = [end, *middle, start]
+print("list after swaping: ",list)
+
+
+5th approach
+first = list.pop(0)
+last = list.pop(-1)
+
+list.insert(0,last)
+list.append(first)
+print("list after swaping: ",list)
