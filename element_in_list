@@ -1,0 +1,9 @@
+list = [ 1, 2, 3, 4, 5, 3, 23, 45, 62]
+print(list)
+
+n = int(input("Enter a element :"))
+
+if(n in list):
+    print("Element found")
+else:
+    print('element not found')
