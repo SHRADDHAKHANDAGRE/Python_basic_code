@@ -1,0 +1,17 @@
+list9 = [4, 6, 2, 34, 46, 45]
+
+list_copy = list9[:]
+print(list_copy)
+
+list1_copy = []
+list1_copy.extend(list9)
+print(list1_copy)
+
+list2_copy = list(list9)
+print(list2_copy)
+
+list3_copy = list9.copy()
+print(list3_copy)
+
+list4_copy = [i for i in list9]
+print(list4_copy)
