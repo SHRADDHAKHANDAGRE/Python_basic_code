@@ -1,0 +1,10 @@
+list = [3,2,1,4,5]
+
+f = 1 
+for i in range(0,len(list)):
+    f=f*list[i]
+print(f)
+
+import numpy
+my = numpy.prod(list)
+print(my)
