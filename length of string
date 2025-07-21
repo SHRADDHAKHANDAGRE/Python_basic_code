@@ -1,0 +1,19 @@
+using for loop:
+str = "welcome"
+count = 0
+for i in str:
+    count+=1 
+print(count)
+
+
+using while loop and slicing:
+while str[count:]:
+    count+=1 
+print(count)
+
+using build in function len():
+print(len(str))
+
+# using join and count:
+ran_str = "x"
+print((ran_str).join(str).count(ran_str)+1)
