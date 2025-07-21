@@ -1,0 +1,10 @@
+list = [2, 4, 56, 34, 7]
+
+list.sort()
+print("2nd largest no. : ",list[-2])
+
+new = set(list)
+new.remove(max(new))
+print(new)
+print(max(new))
+        
