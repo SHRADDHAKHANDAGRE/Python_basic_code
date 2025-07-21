@@ -1,0 +1,8 @@
+str = "I am perfect for my self"
+words = str.split(" ")
+print(words)
+words = words[-1::-1]  #first -1 representing the reverse process and 2nd -1 rep. reverse from  last 
+
+print(words)
+outputstr= ' '.join(words)
+print(outputstr)
