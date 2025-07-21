@@ -1,0 +1,8 @@
+n = input("Enter a string: ")
+
+revstr = (n[::-1])
+
+if revstr == n:
+    print("Palindrome")
+else :
+    print("Non Palindrome")
