@@ -1,0 +1,9 @@
+str = "i am shraddha khandagre"
+n_str= "am"
+
+print(str.find(n_str))
+
+if(str.find(n_str)==-1):
+    print("not found")
+else:
+    print("found")
