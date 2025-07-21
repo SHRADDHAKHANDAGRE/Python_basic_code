@@ -1,0 +1,11 @@
+a = [2,3,4,5,6,8]
+f=1
+n = int(input("enter a element you want to search: "))
+for i in range(0,len(a)):
+    if(n==a[i]):
+        print("Element found at ",i+1)
+        f=0
+if(f==0):
+    print=("")
+else:
+    print("Element is not found")
