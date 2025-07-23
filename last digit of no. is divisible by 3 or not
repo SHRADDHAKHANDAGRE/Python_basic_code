@@ -1,0 +1,7 @@
+a = int(input("Enter a number has more than 2 digit:"))
+
+b = a%10
+if(b%3==0):
+    print("Last digit or given number is divisible by 3")
+else:
+    print("Last digit or given number is not divisible by 3")
