@@ -1,0 +1,6 @@
+a = int(input("Enter the temperature of water(in degree celsius):"))
+
+if(a>=100):
+    print("Water is boiling")
+else: 
+    print("Water is not boiling")
