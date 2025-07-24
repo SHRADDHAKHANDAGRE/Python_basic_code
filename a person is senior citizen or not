@@ -1,0 +1,8 @@
+a = int(input("Enter your age:"))
+
+if(a>=50 and a<=150):
+    print("You are senior cetizen")
+elif(a>150):
+    print("This is not possible")
+else:
+    print("You are not senior cetizen")
