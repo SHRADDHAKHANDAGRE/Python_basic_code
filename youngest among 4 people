@@ -1,0 +1,24 @@
+a = int(input("Enter 1st person age:"))
+b = int(input("Enter 2nd person age:"))
+c = int(input("Enter 3rd person age:"))
+d = int(input("Enter 4th person age:"))
+
+if(a<b):
+    if(a<c):
+        if(a<d):
+            print(a,"is youngest among all of them")
+        else:
+            print(d,"is youngest among all of them")
+    else:
+        if(c<d):
+            print(c,"is youngest among all of them")
+        else:
+            print(d,"is youngest among all of them")
+else:
+    if(b<c):
+        if(b<d):
+            print(b,"is youngest among all of them")
+        else:
+            print(d,"is youngest among all of them")
+    else:
+        print(c,"is youngest among all of them")
