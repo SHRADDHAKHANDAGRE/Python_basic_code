@@ -1,0 +1,38 @@
+a = int(input("Enter a number between 1 to 12 to print Month or days: "))
+
+if(a==1):
+    print("month is January")
+    print("And no. of days is 31")
+elif(a==2):
+    print("month is February")
+    print("And no. of days is 28")
+elif(a==3):
+    print("month is March")
+    print("And no. of days is 31")
+elif(a==4):
+    print("month is April")
+    print("And no. of days is 30")
+elif(a==5):
+    print("month is May")
+    print("And no. of days is 31")
+elif(a==6):
+    print("month is June")
+    print("And no. of days is 30")
+elif(a==6):
+    print("month is July")
+    print("And no. of days is 31")
+elif(a==6):
+    print("month is August")
+    print("And no. of days is 31")
+elif(a==6):
+    print("month is September")
+    print("And no. of days is 30")
+elif(a==6):
+    print("month is October")
+    print("And no. of days is 31")
+elif(a==6):
+    print("month is November")
+    print("And no. of days is 30")
+else:
+    print("month is December")
+    print("And no. of days is 31")
