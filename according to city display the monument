@@ -1,0 +1,10 @@
+a = (input("Enter a city: "))
+
+if(a=="delhi" or a=="Delhi"):
+    print("Red Fort")
+elif(a=="agra" or a=="Agra"):
+    print("Taj Mahal")
+elif(a=="jaipur" or a=="Jaipur"):
+    print("Jal Mahal")
+else:
+    print("Invalid city")
