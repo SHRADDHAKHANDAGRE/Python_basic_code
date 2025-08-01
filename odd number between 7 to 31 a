@@ -1,0 +1,4 @@
+print("odd number between 7 to 31 are \n")
+for i in range(7,31):
+    if(i%2!=0):
+        print(i, end= " ")
