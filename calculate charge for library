@@ -1,0 +1,10 @@
+a = int(input("Enter number of days:"))
+
+if(a<=5):
+    print("Total charge :",a*2)
+elif(a>=6 and a<=10):
+    print("Total charge :",a*3)
+elif(a>11 and a<=15):
+    print("Total charge :",a*4)
+else:
+    print("Total charge :",a*5)
