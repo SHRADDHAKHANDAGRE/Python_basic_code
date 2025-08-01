@@ -1,0 +1,6 @@
+print("Enter your favourite movies name.")
+li = []
+for i in range(3):
+    li.append(input("Enter your favourite movies name:"))
+    
+print(li)
