@@ -1,0 +1,8 @@
+dic = {}
+
+for i in range(3):
+    a=input("Enter a subject name:")
+    b=int(input("Enter a subject marks:"))
+    print("")
+    dic[a] = b 
+print(dic)
