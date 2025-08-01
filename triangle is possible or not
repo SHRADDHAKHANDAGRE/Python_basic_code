@@ -1,0 +1,9 @@
+a = int(input("Enter first side of triangle:"))
+b = int(input("Enter second side of triangle:"))
+c = int(input("Enter third side of triangle:"))
+
+d=int(a+b+c)
+if(d==180):
+    print("Triangle is possible")
+else:
+    print("Triangle is not possible")
