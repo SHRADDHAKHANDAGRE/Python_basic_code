@@ -1,0 +1,12 @@
+n = int(input("Enter a number between 1500 nad 2700"))
+
+if(n>=1500 and n<=2700):
+    if(n%7==0):
+        if(n%5==0):
+            print(n,"is divisible by 7 and multiple of 5")
+        else:
+            print(n,"is divisible by 7 and not multiple of 5")
+    else:
+        print(n,"is not divisible by 7 and not multiple of 5")
+else:
+    print("you enter a number uout of range")
