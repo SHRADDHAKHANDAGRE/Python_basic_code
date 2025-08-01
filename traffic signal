@@ -1,0 +1,10 @@
+a = (input("Enter color of signal:"))
+
+if(a=="green"):
+    print("Car is allowed to go.")
+elif(a=="yellow"):
+    print("car has to wait")
+elif(a=="red"):
+    print("car has to stop")
+else:
+    print("unrecognized signal.")
