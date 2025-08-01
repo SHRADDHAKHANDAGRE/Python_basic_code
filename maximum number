@@ -1,0 +1,7 @@
+n = [-5, -2, -6, 0, -1]
+max=n[1]
+
+for i in range(len(n)):
+    if(n[i]>max):
+        max = n[i]
+print(max)
