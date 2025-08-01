@@ -1,0 +1,16 @@
+m = int(input("Enter youur marks:"))
+n = input("Enter your name:")
+c = int(input("Eter your class:"))
+s = input("Enter your section:")
+
+if(m<0 or m>100):
+    print("Error: mark should be between 0 to 100 only.")
+elif(m<50):
+    print(n," you are fail and the marks is :",m)
+else:
+    if(m<60 and m>=50):
+        print(n,"scored good marks and the marks is :",m)
+    elif(m<80 and m>=60):
+        print(n,"scored very good marks and the marks is :",m)
+    else:
+        print(n,"scored outstanding marks and the marks is :",m)
