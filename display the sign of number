@@ -1,0 +1,6 @@
+n = int(input("Enter aw number:"))
+
+if(n<0):
+    print("sign:-")
+else:
+    print("sign:+")
