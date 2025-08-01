@@ -1,0 +1,7 @@
+li = ["C", "D", "A", "A", "B", "B", "A"]
+count = 0
+for i in range(len(li)):
+    if(li[i]=="A"):
+        count = count+ 1 
+        
+print("Total number of A grade student:",count)
