@@ -1,0 +1,15 @@
+a = int(input("Enter your salary :"))
+b = int(input("Enter your year of service :"))
+
+
+if b>10:
+    bonus = a*(10/100)
+    salary = a+bonus
+elif (a>6 and a<=10):
+    bonus = a*(8/100)
+    salary = a+bonus
+else:
+    bonus = a*(5/100)
+    salary = a+bonus
+    
+print("Net salary after bonus is ",salary)
