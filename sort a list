@@ -1,0 +1,3 @@
+li = ["C", "D", "A", "A", "B", "B", "A"]
+a = li.sort()
+print(li)
