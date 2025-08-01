@@ -1,0 +1,13 @@
+a = int(input("Enter Maths marks:"))
+b = int(input("Enter English marks:"))
+c = int(input("Enter Science marks:"))
+d = int(input("Enter Social Science marks:"))
+
+if(a>=80 and b>=80 and c>=80 and d>=80):
+    print("You have alloted science stream")
+elif(b>=80 and a>=50 and c>=50):
+    print("You have alloted commercee stream")
+elif(b>=80 and d>=80):
+    print("You have alloted humanities stream")
+else:
+    print("You are not eligible")
