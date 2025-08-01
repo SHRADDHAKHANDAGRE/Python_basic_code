@@ -1,0 +1,13 @@
+li = [1, 2, 3, 2, 1]
+a = li.copy()
+a.reverse
+count=0
+
+for i in range(len(li)):
+    if(li[i]==a[i]):
+        count = count+ 1 
+        
+if(count==len(li)):
+    print("list is palindrome")
+else:
+    print("list is not palindrome")
