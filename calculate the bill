@@ -1,0 +1,8 @@
+a = int(input("Enter the distance (in km):"))
+
+if(a<=10):
+    print("Total bill :",(a*11))
+elif(a>10 and a<=90):
+    print("Total bill :",110+((a-10)*10))
+else:
+    print("Total bill :",1010+((a-100)*9))
