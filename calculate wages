@@ -1,0 +1,15 @@
+a = int(input("Enter your age :"))
+b = (input("Enter your sex(F/M) :"))
+
+if(a>=18 and a<30):
+    if(b=="f"):
+        print("wages=750")
+    else:
+        print("wages=700")
+elif(a>=30 and a<=40):
+    if(b=="f"):
+        print("wages=850")
+    else:
+        print("wages=800")
+else:
+    print("Enter appropiate age")
