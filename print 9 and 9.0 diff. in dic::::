@@ -1,0 +1,4 @@
+dic = {}
+dic[1] = 9
+dic[2] = float(9.0)
+print(dic)
