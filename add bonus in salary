@@ -1,0 +1,7 @@
+a = int(input("Enter year of service:"))
+b = int(input("Enter your salary:"))
+
+if(a>5):
+    print("Net salary:",(b+(b*5/100)))
+else:
+    print("salary:",b)
