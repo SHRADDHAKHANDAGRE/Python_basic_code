@@ -1,0 +1,13 @@
+a = int(input("Enter marked price:"))
+
+if a>10000:
+    dis = a*(20/100)
+    price = a-dis
+elif (a>7000 and a<=10000):
+    dis = a*(15/100)
+    price = a-dis
+else:
+    dis = a*(10/100)
+    price = a-dis
+    
+print("Net amount after discount is ",price)
