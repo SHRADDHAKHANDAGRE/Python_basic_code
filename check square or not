@@ -1,0 +1,7 @@
+a = int(input("Enter length number:"))
+b = int(input("Enter breath number:"))
+
+if(a==b):
+    print("given shape is square")
+else:
+    print("given shape is not square")
