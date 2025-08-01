@@ -1,0 +1,10 @@
+a = int(input("Enter your percentage :"))
+
+if(a>=65):
+    print("Excellent")
+elif(a>=55 and a<65):
+    print("Good")
+elif(a>=40 and a<55):
+    print("Fair")
+else:
+    print("Failed")
